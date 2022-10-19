@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NumberSpell/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NumberSpell from './components/NumberSpell.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NumberSpell
   }
 }
 </script>
