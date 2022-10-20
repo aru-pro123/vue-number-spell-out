@@ -1,5 +1,7 @@
 # vue-number-spell-out
 
+A simple vue input component to spell out the number to word. This component maximum support 9 digits number only.
+
 ## Project setup
 
 ```
