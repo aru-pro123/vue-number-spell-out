@@ -1,14 +1,31 @@
 {
   "name": "vue-number-spell-out",
+  "description": "A simple component to convert number to word",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "dev@arunya",
+    "email": "dev.arunya@gmail.com"
+  },
+  "keywords": [
+    "vue",
+    "spell",
+    "number"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "repository": "https://github.com/aru-pro123/vue-number-spell-out",
+  "bugs": "https://github.com/aru-pro123/vue-number-spell-out/issues",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-number-spell-out ./src/main.js",
     "lint": "vue-cli-service lint"
   },
+  "main": ".dist/vue-number-spell-out.common.js",
   "dependencies": {
-    "bootstrap": "^5.2.2",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
